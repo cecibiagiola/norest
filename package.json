@@ -1,0 +1,16 @@
+{
+  "name": "no-rest-api",
+  "version": "1.0.0",
+  "description": "No Rest API, porque la toxicidad no descansa.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0"
+  }
+}
