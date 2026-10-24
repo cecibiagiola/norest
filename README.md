@@ -61,7 +61,7 @@ Los filtros `categoria` y `nivel` se pueden combinar. La categoría ignora mayú
 
 ## Ejemplos con curl
 
-La API está online en https://norest.vercel.app
+La API está online en https://norest.vercel.app/reclamo
 
 ```bash
 curl https://norest.vercel.app/reclamo
