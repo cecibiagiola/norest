@@ -61,8 +61,10 @@ Los filtros `categoria` y `nivel` se pueden combinar. La categoría ignora mayú
 
 ## Ejemplos con curl
 
+La API está online en https://norest.vercel.app
+
 ```bash
-curl http://localhost:3000/reclamo
+curl https://norest.vercel.app/reclamo
 ```
 
 ```json
@@ -74,10 +76,10 @@ curl http://localhost:3000/reclamo
 ```
 
 ```bash
-curl "http://localhost:3000/reclamo?categoria=comida"
-curl "http://localhost:3000/reclamo?nivel=5"
-curl "http://localhost:3000/reclamo?categoria=planes&nivel=3"
-curl http://localhost:3000/categorias
+curl "https://norest.vercel.app/reclamo?categoria=comida"
+curl "https://norest.vercel.app/reclamo?nivel=5"
+curl "https://norest.vercel.app/reclamo?categoria=planes&nivel=3"
+curl https://norest.vercel.app/categorias
 ```
 
 ```json
